@@ -10,7 +10,7 @@
     },
     "license": "MIT",
     "name": "shared-extensions",
-    "displayName": "Other Shared Extensions",
+    "displayName": "Shared Extensions",
     "description": "Provides extensions shared over all development tasks",
     "version": "0.0.1",
     "engines": {
@@ -54,6 +54,20 @@
         "slevesque.vscode-hexdump",
         "spmeesseman.vscode-taskexplorer",
         "tobysmith568.run-in-powershell",
-        "zxh404.vscode-proto3"
+        "zxh404.vscode-proto3",
+        "bbenoist.doxygen",
+        "yatki.vscode-surround",
+        "visualstudioexptteam.vscodeintellicode",
+        "mikestead.dotenv",
+        "mrmlnc.vscode-scss",
+        "zignd.html-css-class-completion",
+        "herrmannplatz.npm-dependency-links",
+        "syler.sass-indented",
+        "moshfeu.compare-folders",
+        "in4margaret.compareit",
+        "ryu1kn.partial-diff",
+        "l13rary.l13-diff",
+        "pmneo.tsimporter",
+        "esbenp.prettier-vscode"
     ]
 }
