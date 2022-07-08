@@ -6,13 +6,18 @@
     },
     "publisher": "raits",
     "repository": {
-        "url": "https://github.com/raits-gmbh/vscode-extension-pack-gitlab-extensions"
+		"type": "git",
+        "url": "https://github.com/raits-gmbh/vscode-extension-pack-shared-extensions"
     },
+	"bugs": {
+		"url": "https://github.com/raits-gmbh/vscode-extension-pack-shared-extensions/issues"
+	},
     "license": "MIT",
     "name": "shared-extensions",
     "displayName": "Shared Extensions",
     "description": "Provides extensions shared over all development tasks",
-    "version": "0.0.2",
+    "version": "0.0.3",
+	"homepage": "https://github.com/raits-gmbh/vscode-extension-pack-shared-extensions",
     "engines": {
         "vscode": "^1.55.0"
     },
@@ -20,7 +25,30 @@
         "Extension Packs"
     ],
     "keywords": [
-      "raits"
+        "raits",
+		"docker",
+		"kubernetes",
+		"containers",
+		"remote",
+		"yaml",
+		"markdown",
+		"task",
+		"test",
+		"runner",
+		"todo",
+		"lint",
+		"svg",
+		"viewer",
+		"proto",
+		"proto3",
+		"hexdump",
+		"powershell",
+		"documentation",
+		"doxygen",
+		"sass",
+		"scss",
+		"dotenv",
+		"prettier"
     ],
     "extensionPack": [ 
         "asciidoctor.asciidoctor-vscode",
@@ -42,14 +70,13 @@
         "ms-vscode-remote.remote-containers",
         "ms-vscode-remote.remote-ssh",
         "ms-vscode-remote.remote-ssh-edit",
-        "msjsdiag.debugger-for-chrome",
         "neilding.language-liquid",
         "pflannery.vscode-versionlens",
         "plex.vscode-protolint",
         "quicktype.quicktype",
         "redhat.vscode-yaml",
         "ritwickdey.LiveServer",
-        "slevesque.vscode-hexdump",
+        "ms-vscode.hexeditor",
         "spmeesseman.vscode-taskexplorer",
         "tobysmith568.run-in-powershell",
         "zxh404.vscode-proto3",
@@ -66,6 +93,14 @@
         "ryu1kn.partial-diff",
         "l13rary.l13-diff",
         "pmneo.tsimporter",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+		"tkrkt.linenote",
+		"kiteco.kite",
+		"rangav.vscode-thunder-client",
+		"tamasfe.even-better-toml",
+		"samuelcolvin.jinjahtml",
+		"aliariff.auto-add-brackets",
+		"smulyono.reveal",
+		"DotJoshJohnson.xml"
     ]
 }
